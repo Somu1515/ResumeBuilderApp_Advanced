@@ -40,7 +40,7 @@ A modern and feature-rich resume builder application built with **ASP.NET Core R
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/ResumeBuilderApp_Advanced.git
+   git clone https://github.com/Somu1515/ResumeBuilderApp_Advanced.git
    cd ResumeBuilderApp_Advanced
 "# ResumeBuilderApp_Advanced" 
 "# ResumeBuilderApp_Advanced" 

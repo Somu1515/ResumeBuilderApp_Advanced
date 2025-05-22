@@ -1,0 +1,16 @@
+@page
+@model ResumeFormModel
+<form method="post">
+    <input asp-for="Resume.FullName" placeholder="Full Name" /><br/>
+    <input asp-for="Resume.Email" placeholder="Email" /><br/>
+    <input asp-for="Resume.Phone" placeholder="Phone" /><br/>
+    <textarea asp-for="Resume.Summary" placeholder="Summary"></textarea><br/>
+    <input asp-for="SkillsInput" placeholder="Skills (comma-separated)" /><br/>
+    <select asp-for="ExportFormat">
+        <option value="PDF">PDF</option>
+        <option value="DOCX">DOCX</option>
+        <option value="HTML">HTML</option>
+        <option value="JSON">JSON</option>
+    </select><br/>
+    <button type="submit">Export Resume</button>
+</form>
